@@ -10,6 +10,7 @@ VMwareで仮想マシン作成。user:postgres, pwd:postgres
 
 CONQUEST : https://ingenium.home.xs4all.nl/dicom.html
 
+gedit conquest.sh
 ```
 #!bin/sh
 sudo apt -y update
@@ -23,7 +24,9 @@ cd ~/conquest
 
 sudo apt-get -y install libpq-dev 
 sudo apt-get -y install postgresql
-
+```
+ここから手作業で？（スクリプトでは上手くいかない…）
+```
 sudo su 　　　　　　　　　　　　　　　　   　　# become superuser 
 su – postgres 
 
@@ -32,14 +35,14 @@ psql << EOT
 postgres 
 postgres 
 \q 
-createdb conquest                           # create database conquest 
-                                   
+createdb conquest                           # create database conquest                                 
 EOT
-
 exit 
 exit
+```
 
-
+gedit conquest2.sh
+```
 cd conquest
 wget http://ingenium.home.xs4all.nl/dicomserver/dicomserver1419.zip
 unzip dicomserver1419.zip
@@ -48,8 +51,6 @@ chmod 777 maklinux
 
 ./dgate -v -r  # regenerate the database 
 ./dgate -v     # run the server 
-
-
 ```
 
 http://localhost/cgi-bin/dgate?mode=top にブラウザからアクセスする。

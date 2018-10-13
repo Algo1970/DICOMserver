@@ -49,6 +49,7 @@ unzip dicomserver1419.zip
 chmod 777 maklinux
 ./maklinux　
 
+cd conquest
 ./dgate -v -r  # regenerate the database 
 ./dgate -v     # run the server 
 ```

@@ -4,7 +4,7 @@
 
 http://r-beginner.hatenadiary.jp/entry/2017/02/19/081201
 
-### CONQUEST on ubuntu18.04LTS
+### CONQUEST on ubuntu16.04LTS
 
 CONQUEST : https://ingenium.home.xs4all.nl/dicom.html
 

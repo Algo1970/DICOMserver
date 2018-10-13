@@ -14,6 +14,7 @@ gedit conquest.sh
 ```
 #!bin/sh
 sudo apt -y update
+sudo apt -y upgrade
 sudo apt -y install g++         # g++は、GNU GCCのC++コンパイラ
 sudo apt -y install apache2 
 sudo a2enmod cgi

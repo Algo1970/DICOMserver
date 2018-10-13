@@ -57,6 +57,8 @@ chmod 777 maklinux
 
 http://localhost/cgi-bin/dgate?mode=top にブラウザからアクセスする。
 
+### 設定変更用にnvimインストール
 
+https://github.com/Algo1970/clinic_server_ubuntu1804
 
 

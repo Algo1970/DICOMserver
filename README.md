@@ -61,4 +61,10 @@ http://localhost/cgi-bin/dgate?mode=top にブラウザからアクセスする�
 
 https://github.com/Algo1970/clinic_server_ubuntu1804
 
+### 接続設定（~/conquest/acrnema.map）
+
+```
+
+```
+
 

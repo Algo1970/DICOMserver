@@ -10,7 +10,8 @@ VMwareで仮想マシン作成。user:postgres, pwd:postgres
 
 CONQUEST : https://ingenium.home.xs4all.nl/dicom.html
 
-gedit conquest.sh
+gedit conquest.sh  
+* upgradeがエラー出てると上手くいかない！update, upgradeは手作業で確認してからの方が良いかも。
 ```
 #!bin/sh
 sudo apt -y update

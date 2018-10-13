@@ -31,7 +31,7 @@ postgres
 postgres 
 \q 
 createdb conquest                           # create database conquest 
-psql -l                                     
+                                   
 EOT
 
 exit 

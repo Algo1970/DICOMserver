@@ -34,6 +34,9 @@ createdb conquest                           # create database conquest
 psql -l                                     
 EOT
 
+exit 
+exit
+
 
 cd conquest
 wget http://ingenium.home.xs4all.nl/dicomserver/dicomserver1419.zip

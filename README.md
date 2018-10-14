@@ -98,3 +98,13 @@ KPServer      192.168.47.1    104             un
 ./dgate -v
 ```
 
+### DICOM viewer
+
+接続確認済み
+- RadiAnt : https://www.radiantviewer.com/
+
+接続不可
+- Onis : http://www.onis-viewer.com/ProductInfo.aspx?id=19
+- Athena DICOM viewer : https://www.microsoft.com/ja-jp/p/athena-dicom-viewer/9nblggh514ph#activetab=pivot:overviewtab
+
+

@@ -94,4 +94,10 @@ run
 sudo docker run -d -it -p 5678:5678 -p 80:80 --name="conquest" masamasadocker/conquest_ubuntu1404
 ```
 
+## port
+
+- Port 5678 - used for DICOM send/query/receive.
+- Port 80 - used for http.
+
+
 

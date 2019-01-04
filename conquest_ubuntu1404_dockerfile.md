@@ -4,6 +4,7 @@ ref :
   
 https://github.com/wavedrift/docker-conquest  
 https://hub.docker.com/r/wavedrift/docker-conquest  
+http://r-beginner.hatenadiary.jp/entry/2016/12/12/195754
 
 ```
 # ******************************************************************
@@ -99,5 +100,12 @@ sudo docker run -d -it -p 5678:5678 -p 80:80 --name="conquest" masamasadocker/co
 - Port 5678 - used for DICOM send/query/receive.
 - Port 80 - used for http.
 
+## acrnema map
+```
+sudo docker exec -it conquest bash
+find / -name 'acrnema.map'
+cd conquest
+nvim acrnema.map
+```
 
 

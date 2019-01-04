@@ -87,10 +87,11 @@ sudo docker build -t masamasadocker/conquest_ubuntu1404 .
 sudo docker login   # masamasadocker
 sudo docker images
 sudo docker tag 199f3a659c2a masamasadocker/conquest_ubuntu1404:latest
-sudo docker push masamasadocker/mapserver_sapporo:latest
+sudo docker push masamasadocker/conquest_ubuntu1404:latest
 ```
 run
 ```
-sudo docker run -d -it -v $(pwd):/data -p 8081:80 --name="map_server" masamasadocker/mapserver_sapporo
+sudo docker run -d -it -p 5678:5678 -p 80:80 --name="conquest" masamasadocker/conquest_ubuntu1404
 ```
+
 

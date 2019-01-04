@@ -1,5 +1,7 @@
 # Dockerfile
 
+ref : https://github.com/wavedrift/docker-conquest
+
 ```
 # ******************************************************************
 # 

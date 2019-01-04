@@ -107,5 +107,11 @@ find / -name 'acrnema.map'
 cd conquest
 nvim acrnema.map
 ```
+restart
+```
+sudo docker restart conquest
+```
+
+
 
 

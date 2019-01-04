@@ -80,3 +80,17 @@ RUN echo "#!/bin/bash" > startConquest.sh; \
 # The server should then be running and localhost/cgi-bin/dgate should provide a working web interface.
 CMD ["/startConquest.sh"]
 ```
+## build, push, run
+build & push
+```
+sudo docker build -t masamasadocker/conquest_ubuntu1404 .
+sudo docker login   # masamasadocker
+sudo docker images
+sudo docker tag 199f3a659c2a masamasadocker/conquest_ubuntu1404:latest
+sudo docker push masamasadocker/mapserver_sapporo:latest
+```
+run
+```
+sudo docker run -d -it -v $(pwd):/data -p 8081:80 --name="map_server" masamasadocker/mapserver_sapporo
+```
+
